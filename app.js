@@ -92,7 +92,7 @@ const gameplayer = (move) => {
     printBoard();
     const winner = calculateWinner();
     if (winner != "") {
-        console.log(`Winner is ${winner}`)
+        console.log(`The winner is ${winner}`)
         process.exit(0);
     }
     playTicTacToe();
