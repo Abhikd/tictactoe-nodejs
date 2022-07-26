@@ -27,7 +27,7 @@ const printBoard = () => {
 }
 
 const defaultPlayer = () => {
-    rl.question("You are X. Do you want to change to O? Press y or n.", function (defaultorChoose) {
+    rl.question("You are X. Do you want to change to O? Press y or n for yes or no respectively.", function (defaultorChoose) {
         let choice = defaultorChoose.toLowerCase();
         if (choice === "y") {
             setPlayer();
