@@ -43,7 +43,7 @@ const defaultPlayer = () => {
 }
 
 const setPlayer = () => {
-    rl.question("You are X. Press O to change to O", function (whichPlayer) {
+    rl.question("You are X.If you want to change to O, press O to change to O", function (whichPlayer) {
         changePlayer(whichPlayer);
     });
 }
