@@ -62,7 +62,7 @@ const changePlayer = (playerChange) => {
 const playTicTacToe = () => {
     
 
-       rl.question("Your move ", function (move) {
+       rl.question("Place your move ", function (move) {
             gameplayer(move);
         });
 
