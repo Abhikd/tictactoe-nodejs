@@ -9,7 +9,7 @@ const rl = readline.createInterface({
 let player = "X";
 
 let tictactoe = [
-    "", "", "", "", "", "", "", "",""
+    "", "", "", "", "", "", "", "", ""
 ];
 
 const printBoard = () => {
